@@ -1,5 +1,5 @@
 *{
-    margin: 0px;
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     border: border-box;
     background-color: black;
@@ -65,7 +65,7 @@ a{
     padding-top: 15px;
     font-size: 70px;
 }
-.fd{
+.wd{
     padding-top: 15px;
     font-size: 25px;
     padding-bottom: 30px;
@@ -254,7 +254,7 @@ section{
 
 .myskill{
     padding-top: 80px;
-    padding-bottom: 900px;
+    padding-bottom: 200px;
 }
 .skills{
     display: flex;
@@ -446,4 +446,96 @@ footer{
 .foot-border i{
     background-color: #020617;
     color: red;
+}
+
+
+
+
+@media only screen and (max-width:1150px) {
+    .bar{
+        margin: 300px;
+    }
+    .mypic{
+    height: 400px;
+    }
+    .hm{
+        font-size: 60px;
+    }
+    .handels{
+        margin-bottom:150px ;
+    }
+    .detail{
+        font-size: 35px;
+        padding-right: 150px;
+    }
+}
+@media only screen and (max-width:768px) {
+    .bar{
+        margin: 170px ;
+    }
+    .navbar{
+        padding-right: 50px;
+    }
+    .navhome{
+    padding-right: 30px;
+    }
+    .photo{
+        margin-right: 20px;
+    }
+    .mypic{
+    height: 300px;
+    }
+
+    .intro{
+        padding-top: 100px;
+    }
+
+    .hm{
+        font-size: 43px;
+    }
+    .wd{
+        font-size: 20px;
+    }
+    .handels{
+        margin-bottom:150px ;
+    }
+    .detail{
+        font-size: 25px;
+        padding-right: 140px;
+        padding-left: 70px;
+    }
+
+}
+
+@media only screen and (max-width:426px) {
+   
+    .navbar{
+        padding-right: 0px;
+    }
+    .mypic{
+        visibility: hidden;
+    }
+    .hm{
+        padding-top: 5px;
+    }
+    
+    .detail{
+        padding: 0px 50px 0px 20px;
+        font-size: 20px;
+    }
+    .gmail{
+        font-size: 13px;
+        padding-top: 12px;
+        margin-bottom: 20px;
+    }
+    .box{
+        margin-right: 20px;
+    }
+    .contact{
+        padding-bottom: 45px;
+    }
+    .git h2{
+        font-size: 35px;
+    }
+
 }
